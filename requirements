@@ -1,2 +1,10 @@
 yfinance
 docling
+fastapi[standard]
+uvicorn
+
+
+@mui/material 
+@emotion/react 
+@emotion/styled
+@mui/icons-material
