@@ -2,3 +2,5 @@ data/
 vectorstores/
 
 .env
+.idea/
+__pycache__/
