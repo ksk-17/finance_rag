@@ -47,12 +47,10 @@ from pathlib import Path
 from typing import Optional
 from urllib.parse import urljoin
 
-try:
-    import requests
-    from bs4 import BeautifulSoup
-    from tqdm import tqdm
-except ImportError as exc:
-    sys.exit(f"Missing dependency: {exc}\nRun: pip install requests beautifulsoup4 tqdm")
+
+import requests
+from bs4 import BeautifulSoup
+from tqdm import tqdm
 
 # ══════════════════════════════════════════════
 #  CONFIG

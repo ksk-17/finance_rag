@@ -67,11 +67,9 @@ import time
 from pathlib import Path
 from typing import Optional
 
-try:
-    import requests
-    from tqdm import tqdm
-except ImportError as exc:
-    sys.exit(f"Missing dependency: {exc}\nRun: pip install requests tqdm")
+
+import requests
+from tqdm import tqdm
 
 # ══════════════════════════════════════════════
 #  CONFIG
